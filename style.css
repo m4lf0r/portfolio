@@ -445,7 +445,7 @@ body.menu-expanded  button path {
   display: flex;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: var(--red-custom);
   margin-right: 1rem;
 }
