@@ -8,7 +8,7 @@
 
 :root {
   --hue:170;
-  --primary-color: #1a1a1a;
+  --primary-color: #1b1b1b;
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(208, 5%, 48%);
   --brand-beige: hsl(39, 100%, 97%);
@@ -37,7 +37,7 @@ body {
   font-size: 1.6rem;
   text-align: center;
   overflow: overlay;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.945);
 }
 
 .wrapper {
@@ -356,7 +356,7 @@ body.menu-expanded  button path {
 }
 /* ------------------------------- DEPOSITIONS ------------------------------*/
 
-#depositions header h2 {
+/*#depositions header h2 {
   margin-bottom: 6rem;
   font-size: 4.0rem;
   line-height: 5.2rem;
@@ -417,7 +417,7 @@ body.menu-expanded  button path {
 #depositions a {
   text-decoration: none;
 }
-
+*/
 /* ------------------------------- BANNER ------------------------------*/
 
 #banner h2 {
@@ -615,7 +615,7 @@ nav#navigation .social-left {
   display: flex;
   justify-content: space-between;
   gap: 2.2rem;
-  margin-right: 4rem;
+  margin-right: 10rem;
 }
 
 nav#navigation .social-left ul:nth-child(1){
@@ -754,6 +754,7 @@ nav#navigation.scroll .menu a.button:hover{
   border-radius: 15px;
 }
 
+
   /* ------------------------------- SERVICES ------------------------------*/
 #services h2 {
   width: 47rem;
@@ -786,7 +787,7 @@ nav#navigation.scroll .menu a.button:hover{
 }
 
 #services video {
-  margin-left: 4rem;
+  margin-left: 10rem;
 }
   /* ------------------------------- DEPOSITIONS ------------------------------*/
 
