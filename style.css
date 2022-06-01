@@ -511,9 +511,8 @@ body.menu-expanded  button path {
 }
 
 #contact iframe {
-  height: 30.0rem;
-  object-fit: cover;
-  width: 40.0rem;
+  height: 20rem;
+  width: 30rem;
 }
 
 /* ------------------------------- FOOTER ------------------------------*/
@@ -878,7 +877,9 @@ nav#navigation.scroll .menu a.button:hover{
 }
 
 #contact iframe {
-  width: 45rem;
+  height: 30.0rem;
+  object-fit: cover;
+  width: 45.0rem;
 }
 
   /* ------------------------------- FOOTER ------------------------------*/

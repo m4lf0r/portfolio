@@ -62,6 +62,7 @@ const navigation = document.getElementById("navigation")
 }
 
 function showBackToTopOnScroll() {
+const backToTopButton = document.getElementById("backToTopButton")
   if(scrollY > 500) {
     backToTopButton.classList.add('show')
   } else {
