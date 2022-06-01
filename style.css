@@ -162,18 +162,18 @@ nav {
   z-index: 100;
 }
 
-nav .wrapper{
+nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav.scroll{
+nav.scroll {
   background: var(--red-custom);
 
 }
 
-nav button{
+nav button {
   background: none;
   border: none;
   cursor: pointer;
@@ -510,6 +510,12 @@ body.menu-expanded  button path {
   text-decoration: none;
 }
 
+#contact iframe {
+  height: 30.0rem;
+  object-fit: cover;
+  width: 40.0rem;
+}
+
 /* ------------------------------- FOOTER ------------------------------*/
 
 footer {
@@ -527,11 +533,12 @@ footer p {
   color: black;
   line-height: 2;
   margin-bottom: 3.2rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgb(34, 34, 34);
 }
 
 
 footer .social-links {
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 /* ------------------------------- BACK TO TOP ------------------------------*/
@@ -857,8 +864,21 @@ nav#navigation.scroll .menu a.button:hover{
   grid-template-areas: 'A B';
 }
 
+#contact .col-a {
+  align-self: center;
+}
+
+#contact .col-b {
+  margin-left: 10rem;
+  align-self: center;
+}
+
 #contact h2 {
   width: 40.4rem;
+}
+
+#contact iframe {
+  width: 45rem;
 }
 
   /* ------------------------------- FOOTER ------------------------------*/

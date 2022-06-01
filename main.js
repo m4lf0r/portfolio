@@ -1,5 +1,6 @@
 window.addEventListener('scroll', onScroll)
 
+
 onScroll()
 function onScroll() {
   showNavOnScroll()
@@ -8,7 +9,6 @@ function onScroll() {
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
   activateMenuAtCurrentSection(about)
-  activateMenuAtCurrentSection(depositions)
   activateMenuAtCurrentSection(contact)
 }
 
@@ -53,6 +53,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
+const navigation = document.getElementById("navigation")
   if(scrollY > 0) {
     navigation.classList.add('scroll')
   } else {
@@ -82,11 +83,9 @@ ScrollReveal({
   distance: '30px',
   duration: 700,
 }).reveal(`#home,
-   #home img,
-   #home .stats,
+   #home video,
    #services,
-   #services geader,
-   #services .card,
+   #services .projects,
    #about,
    #about .header,
    #about .content`);
