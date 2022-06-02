@@ -318,9 +318,6 @@ body.menu-expanded  button path {
   text-align: center;
 }
 
-#services header h2 {
-  margin-bottom: 4rem;
-}
 
 #services #projects .wrapper {
   border: 1px solid #3f3f3f;
@@ -337,9 +334,7 @@ body.menu-expanded  button path {
   color: var(--red-custom);
 }
 
-#services #projects .content a {
-  display: flex;
-  justify-content: center;
+#services #projects a {
   text-decoration: none;
   color: var(--grey-light);
   margin-top: 1rem;
@@ -352,8 +347,10 @@ body.menu-expanded  button path {
 }
 
 #services video {
+  margin-top: 2rem;
   width: 30rem;
 }
+
 /* ------------------------------- DEPOSITIONS ------------------------------*/
 
 /*#depositions header h2 {
@@ -532,7 +529,7 @@ footer p {
   color: black;
   line-height: 2;
   margin-bottom: 3.2rem;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgb(34, 34, 34);
+  font-weight: 400;
 }
 
 
@@ -784,12 +781,10 @@ nav#navigation.scroll .menu a.button:hover{
 }
 
 #services #projects .content a {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   text-decoration: none;
   color: var(--grey-light);
   cursor: pointer;
+
 }
 
 #services video {
